@@ -1,0 +1,22 @@
+{
+  "name": "vito8916/twitter-api-wrap",
+  "description": "This is a small wrapper for twitter api v1",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Victor Alvarado",
+      "email": "dev.honduras@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "vlucas/phpdotenv": "^5.2",
+    "guzzlehttp/guzzle": "^6.5|^7.0.1",
+    "guzzlehttp/oauth-subscriber": "0.4.*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
